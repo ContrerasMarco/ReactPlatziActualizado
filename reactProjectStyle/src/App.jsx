@@ -1,11 +1,16 @@
-import {Card} from "./components/Card/Card";
-
+//import {Card} from "./components/Card/Card";
+import {Button} from "./components/Card/Button/Button"
+import {Button2} from "./components/ButonestilizadoNuevo/ButtonConNewStyle"
 
 function App() {
   
   return (
     <>
-     <Card/>
+      <Button2 gris><p>Azul profundo</p></Button2>
+      <Button2 red><p>Azul profundos</p></Button2>
+      <Button Gris><p>Azul</p></Button>
+      <Button blue><p>rojo</p></Button>
+     {/*<Card/>*/}
     </>
   )
 }
